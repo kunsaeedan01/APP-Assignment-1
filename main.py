@@ -1,8 +1,10 @@
-import requests
+from pycoingecko import CoinGeckoAPI
 
-response = requests.get(url="https://api.coingecko.com/api/v3/global")
-data = response.json()
-top_100 = sorted(data["data"]["total_market_cap"])
+cg = CoinGeckoAPI()
+data = cg.get_global()
+
+print(data)
+top_100 = sorted(data["total_market_cap"])
 list_of_crypto = []
 
 for key in top_100:
