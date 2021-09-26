@@ -2,8 +2,10 @@
 
 Step 1: Installation
 
+'''
 import pycoingecko
 from pycoingecko import CoinGeckoAPI
+'''
 
 ---
 # Usage
