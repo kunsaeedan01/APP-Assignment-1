@@ -2,7 +2,7 @@
 
 Step 1: Installation
 
-```
+```python
 import pycoingecko
 from pycoingecko import CoinGeckoAPI
 ```
@@ -14,7 +14,7 @@ from pycoingecko import CoinGeckoAPI
 ---
 # Example
 
-```
+```python
 cg = CoinGeckoAPI()
 data = cg.get_global()
 ```
