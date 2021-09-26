@@ -1,6 +1,8 @@
 # Filtering out top N cryptocurrencies by market capitalization 
 
-Step 1: Installation
+---
+# Installation
+---
 
 ```python
 import pycoingecko
